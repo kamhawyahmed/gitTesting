@@ -72,7 +72,7 @@ main
 #===> can then create release from tag in github -> makes zip of file structure (project) - saved checkpoint
 
 
-# colors files: red unversioned blue uncommitted (for current branch - current location (local/remote))
+# colors files: red un-versioned blue uncommitted (for current branch - current location (local/remote))
 # colors code lines: blue - edited, green = new
 # colors are cool - this is simultaneous change 2 - looks branched bc had to resolve conflicts when merging into master rather than merging master into feature, editing in ide then pushing (lol kinda fuzzy)
 # (can assess changes during commit and push by clicking on file changed)
