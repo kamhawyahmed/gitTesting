@@ -64,6 +64,6 @@ main
 # when PR'ing have to manually resolve conflicts to confirm desired changes
 
 
-# colors:
+# colors: red unversioned blue uncommitted (for current branch - current location (local/remote))
 #
 # (can assess changes during commit and push by clicking on file changed)
