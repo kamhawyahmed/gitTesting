@@ -53,10 +53,11 @@ main
 # CHANGING COMMIT MESSAGE:
 # has to be pushed too
 
-#REBASE - keeps feature branches up to date w CLEAN git history:
+#REBASE - keeps feature branches up to date w CLEAN git history: #STILL UNSURE BUT MERGE WORKS FOR ALL TECHNICALLY
 # okay so had to revert but anyways
 # rebase means put changes onto new base (newer version)
 # feature 3 rebase commit - can ignore feature 1 and 2 rebase tests (mistakes while rebasing i.e. committing to wrong branch)
+# now if u look at branch of feature u can see its linear (even though order weird bc keeps order of changes frfr - but this is best of options looks like)
 
 
 # Scenario: made change to feature branch but want to incorporate master changes
