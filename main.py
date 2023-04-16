@@ -54,7 +54,8 @@ main
 # has to be pushed too
 
 #REBASE - keeps feature branches up to date w CLEAN git history:
-# i think overwrites feature branch with master branch
+# puts changes onto the new base of the new commit (new master version) instead of merging/comparing two old versions with equal validity
+# as if i did my changes on new node/base/version
 
 
 # Scenario: made change to feature branch but want to incorporate master changes
