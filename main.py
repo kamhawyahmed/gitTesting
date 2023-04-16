@@ -56,6 +56,7 @@ main
 #REBASE - keeps feature branches up to date w CLEAN git history:
 # okay so had to revert but anyways
 # rebase means put changes onto new base (newer version)
+# feature 3 rebase commit - can ignore feature 1 and 2 rebase tests (mistakes while rebasing i.e. committing to wrong branch)
 
 
 # Scenario: made change to feature branch but want to incorporate master changes
