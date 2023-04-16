@@ -65,5 +65,5 @@ main
 
 
 # colors:
-#
+# colors are cool - this is simultaneous change 2
 # (can assess changes during commit and push by clicking on file changed)
