@@ -35,7 +35,7 @@ main
 #Update:
 #add remote changes to local
 
-#STASHING:
+#STASHING: w the stash oh yeah
 #stores uncommitted changes in THE stash (temp holding folder)
 #can now checkout other branches and edit freely
 #can then return to branch and unstash to return to working with working directory
