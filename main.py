@@ -53,6 +53,10 @@ main
 # CHANGING COMMIT MESSAGE:
 # has to be pushed too
 
+#REBASE - keeps feature branches up to date w CLEAN git history:
+# i think overwrites feature branch with master branch
+
+
 # Scenario: made change to feature branch but want to incorporate master changes
 # Recognize head (?)
 # 1: Merge master changes into feature (can preview before merge)
@@ -61,9 +65,14 @@ main
 #=> can PR with no conflicts => squash and merge to avoid ownership attribution difficulties
 
 # Scenario: Above not followed/ want to merge feature by overwriting master
-# when PR'ing have to manually resolve conflicts to confirm desired changes
+# will prompt to:
+# manually resolve conflicts to confirm desired changes when PR'ing/merging
+
+# Tags - marks certain node/version of project with certain name i.e. release-v1.0 --> accessible in future
+#===> can then create release from tag in github -> makes zip of file structure (project) - saved checkpoint
 
 
-# colors: red unversioned blue uncommitted (for current branch - current location (local/remote))
-# colors are cool - this is simultaneous change 2
+# colors files: red unversioned blue uncommitted (for current branch - current location (local/remote))
+# colors code lines: blue - edited, green = new
+# colors are cool - this is simultaneous change 2 - looks branched bc had to resolve conflicts when merging into master rather than merging master into feature, editing in ide then pushing (lol kinda fuzzy)
 # (can assess changes during commit and push by clicking on file changed)
